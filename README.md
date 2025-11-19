@@ -1,25 +1,25 @@
-# 🩺 Diabetes Risk Prediction Dashboard
+#  Diabetes Risk Prediction Dashboard
 
 An interactive **Streamlit** dashboard that predicts diabetes risk using machine learning models.
 Built end-to-end in **Python**, it supports both **batch CSV uploads** and **single patient input**, with model performance comparison and **SHAP-based explainability**.
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 📂 **Batch Prediction** from uploaded CSV files
-* 🧠 **4 Trained ML Models**:
+*  **Batch Prediction** from uploaded CSV files
+*  **4 Trained ML Models**:
 
   * Logistic Regression
   * Random Forest
   * XGBoost
   * SVM
-* 🏆 **Model Evaluation**:
+*  **Model Evaluation**:
 
   * Average risk per model
   * Automatically identifies **Best**, **Average**, and **Worst** models
-* 👤 **Single Patient Prediction** via form input
-* 📊 **SHAP Summary Plot** to explain feature importance
+*  **Single Patient Prediction** via form input
+*  **SHAP Summary Plot** to explain feature importance
 
 ---
 
@@ -40,28 +40,28 @@ DiabetesInsight-ML/
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/diabetes-dashboard.git
 cd diabetes-dashboard
 ```
 
-### 2️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Train the Models
+###  Train the Models
 
 ```bash
 python src/train_models.py
 ```
 
-### 4️⃣ Run the Dashboard
+###  Run the Dashboard
 
 ```bash
 streamlit run dashboard/app.py
@@ -69,7 +69,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🧪 Example Use Cases
+##  Example Use Cases
 
 * Upload a CSV file to evaluate diabetes risk for multiple patients.
 * Compare average risk across **4 models**.
@@ -78,7 +78,7 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python**, **Pandas**, **scikit-learn**, **XGBoost**
 * **SHAP** for model explainability
@@ -86,7 +86,7 @@ streamlit run dashboard/app.py
 * **Matplotlib** for visualizations
 ---
 
-## 🤝 Contributions
+##  Contributions
 
 Contributions are welcome!
 Feel free to fork this repo, open issues, or submit pull requests.
